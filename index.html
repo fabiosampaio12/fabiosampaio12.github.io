@@ -313,7 +313,65 @@
         </tr>
     </tbody>
 </table>
+<hr style="border: 1px solid #ddd; margin: 40px 0;">
 
+<h1 style="color: #003366; border-bottom: 3px solid #f0ad4e; padding-bottom: 10px; margin-bottom: 20px; text-align: center;">ANVISA: Fila de Análise de Processos de Importação (LPCO)</h1>
+
+<img src="image_dee5ea.png" alt="Painel de Fila de Análise de Processos de Importação (LPCO) da ANVISA" class="dashboard-image">
+
+<h2>Dashboard de Gestão de Fluxo: Processos LPCO Importação</h2>
+
+<p>Este painel de Business Intelligence é uma solução crítica para o acompanhamento da distribuição e análise de processos de <B>Licenças de Importação (LPCO)</B> protocolados no Portal Único PCCE, um módulo chave para o Comércio Exterior brasileiro. O projeto foi desenvolvido com base em dados públicos da ANVISA e visa aumentar a <B>transparência e a eficiência regulatória</B>.</p>
+
+<h3>Objetivo, Impacto e Regulação:</h3>
+<ul>
+    <li><B>Foco Principal:</B> Monitorar a fila de distribuição para análise técnica, permitindo a visualização da data de entrada (petição primária) e a data de distribuição.</li>
+    <li><B>KPI de Transparência:</B> Permite prever o tempo de espera(em dias) que os processos protocolados aguardam até serem alocados para um técnico da ANVISA, vital para a logística do importador.</li>
+    <li><B>Divisão por Posto:</B> A estrutura do painel reflete a organização interna da ANVISA, segmentando as filas por postos de anuência especializados (PAFME, PAFAL/PAFCO, PAFPS), demonstrando entendimento da regra de negócio complexa.</li>
+    <li><B>Funcionalidade:</B> Permite a consulta específica por Número de LPCO, facilitando o acompanhamento individualizado por parte do usuário externo.</li>
+</ul>
+
+<h3>Regulação Aplicada:</h3>
+<p>O desenvolvimento considerou o disposto na <B>RDC N° 743/2022</B>, que estabelece a classificação de riscos e os prazos para resposta aos requerimentos de atos públicos de liberação, exceto para produtos de controle especial (Portaria SVS/MS 344/1998).</p>
+
+<h2>Detalhes Técnicos do Projeto</h2>
+
+<table class="doc-table">
+    <tbody>
+        <tr>
+            <th>Nome do Painel</th>
+            <td>Protocolo Portal Único PCCE - Fila de Análise LPCO Importação</td>
+        </tr>
+        <tr>
+            <th>Objetivo Principal</th>
+            <td>Monitoramento da fila, distribuição e tempo de espera (lead time) de processos de importação sujeitos à anuência da ANVISA.</td>
+        </tr>
+        <tr>
+            <th>Público-Alvo</th>
+            <td>Agência Nacional de Vigilância Sanitária (ANVISA), Importadores e Despachantes Aduaneiros.</td>
+        </tr>
+        <tr>
+            <th>Ferramenta de BI</th>
+            <td>Microsoft Power BI (Painel de Gestão de Filas).</td>
+        </tr>
+        <tr>
+            <th>Fontes de Dados</th>
+            <td>Portal Público de Dados da ANVISA (Módulo Importação).</td>
+        </tr>
+        <tr>
+            <th>KPIs Principais</th>
+            <td>Total de Processos Aguardando Distribuição, Data da Petição Primária, Distribuição por Posto de Anuência.</td>
+        </tr>
+        <tr>
+            <th>Destaque Metodológico</th>
+            <td>Organização de dados de fila (*queue management*) e aplicação de regras de negócio (RDC 743/2022) para categorização de postos (PAFME, PAFAL, PAFPS).</td>
+        </tr>
+        <tr>
+            <th>Link Público</th>
+            <td><a href="https://www.gov.br/anvisa/pt-br/acessoainformacao/dadosabertos/informacoes-analiticas/importacao/protocolo-portal-unico-pcce-fila-de-analise-de-processos-2013-lpco-importacao" target="_blank">Acessar a Página Oficial do Painel ANVISA</a></td>
+        </tr>
+    </tbody>
+</table>
 </div>
 
 </body>
