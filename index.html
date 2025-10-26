@@ -67,6 +67,61 @@
             font-weight: bold;
             color: #d9534f; /* Para destacar o impacto */
         }
+        /* Estilos Básicos para o Header */
+.header-portfolio {
+    background-color: #ffffff; /* Fundo branco para manter a leveza */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave para destacar */
+    position: sticky; /* Fixa o menu no topo ao rolar */
+    top: 0;
+    z-index: 1000; /* Garante que fique acima de outros elementos */
+    padding: 10px 5%; /* Espaçamento interno (ajuste a porcentagem se quiser mais/menos margem lateral) */
+}
+
+/* Estilo da Barra de Navegação (Para alinhar logo e links) */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Distribui o espaço entre o logo e os links */
+    align-items: center; /* Alinha verticalmente no centro */
+    max-width: 1200px; /* Limita a largura máxima no centro da tela (opcional) */
+    margin: 0 auto;
+}
+
+/* Estilo do Logo/Nome */
+.logo {
+    font-size: 1.5rem; /* Tamanho da fonte maior */
+    font-weight: bold;
+    color: #333; /* Cor escura, mas pode ser azul do seu dashboard */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+/* Estilo da Lista de Links */
+.nav-links {
+    list-style: none; /* Remove as "bolinhas" */
+    display: flex; /* Coloca os itens lado a lado */
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo de cada Item de Lista */
+.nav-links li {
+    margin-left: 20px; /* Espaçamento entre os botões */
+}
+
+/* Estilo dos Links (Botões) */
+.nav-item {
+    text-decoration: none;
+    color: #555; /* Cor cinza suave */
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 4px; /* Cantos arredondados (opcional) */
+    transition: background-color 0.3s, color 0.3s; /* Transição suave ao passar o mouse */
+}
+
+/* Efeito ao passar o mouse */
+.nav-item:hover {
+    background-color: #007bff; /* Use um tom de azul que combine com seu portfolio, como o azul principal dos seus dashboards. */
+    color: white; /* Texto branco no hover */
+}
     </style>
 </head>
 <body>
