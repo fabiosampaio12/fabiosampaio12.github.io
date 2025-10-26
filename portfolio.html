@@ -1,66 +1,252 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fábio Costa Sampaio - Detalhes do Projeto</title>     <style>
-        /* SEUS ESTILOS EXISTENTES AQUI... */
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        /* ...resto do CSS... */
-        
-        /* ESTILOS NOVOS PARA O MENU DE VOLTAR */
-        .top-menu {
-            background-color: #fff;
-            padding: 10px 0;
-            border-bottom: 1px solid #ddd;
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fábio Costa Sampaio - Portfólio</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            line-height: 1.6;
+
+            margin: 0;
+
+            padding: 0;
+
+            background-color: #f4f4f4;
+
+            color: #333;
+
         }
 
-        .back-link {
-            text-decoration: none;
+        .container {
+
+            width: 80%;
+
+            margin: auto;
+
+            overflow: hidden;
+
+            padding: 20px;
+
+        }
+
+        header {
+
+            background: #0056b3;
+
+            color: #fff;
+
+            padding-top: 30px;
+
+            min-height: 70px;
+
+            border-bottom: #77aaff 3px solid;
+
+            text-align: center;
+
+        }
+
+        header h1 {
+
+            margin: 0;
+
+            padding: 0;
+
+        }
+
+        header p {
+
+            margin: 5px 0 20px 0;
+
+        }
+
+        .main-content {
+
+            padding: 20px 0;
+
+        }
+
+        section {
+
+            background: #fff;
+
+            padding: 20px;
+
+            margin-bottom: 20px;
+
+            border-radius: 8px;
+
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+        }
+
+        h2 {
+
             color: #0056b3;
+
+            border-bottom: 2px solid #ccc;
+
+            padding-bottom: 10px;
+
+        }
+
+        .contact-info {
+
+            text-align: center;
+
+            margin-bottom: 20px;
+
+        }
+
+        .contact-info a {
+
+            color: #fff;
+
+            text-decoration: none;
+
+            margin: 0 10px;
+
+        }
+
+        .contact-info span {
+
+            color: #fff;
+
+        }
+
+        ul {
+
+            list-style: none;
+
+            padding: 0;
+
+        }
+
+        ul li {
+
+            margin-bottom: 10px;
+
+        }
+
+        .job-title {
+
             font-weight: bold;
-            padding: 10px 20px;
-            display: inline-block;
-            margin-left: 10%; /* Alinha com o conteúdo do .container (que é 80% de largura) */
-            transition: color 0.3s;
+
+            color: #555;
+
         }
 
-        .back-link:hover {
-            color: #007bff;
-        }
-        /* FIM DOS ESTILOS NOVOS */
+        .job-period {
 
-    </style>
-	<meta name="google-site-verification" content="jVZT9W1jCEur3XavON9RrBcD8MXzOC9psI7NY8rc8vc" />
+            font-style: italic;
+
+            color: #777;
+
+        }
+
+        .portfolio-grid {
+
+            display: grid;
+
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+            gap: 20px;
+
+        }
+
+        .portfolio-item {
+
+            background: #f9f9f9;
+
+            border: 1px solid #ddd;
+
+            border-radius: 8px;
+
+            overflow: hidden;
+
+            text-align: center;
+
+            padding-bottom: 15px;
+
+        }
+
+        .portfolio-item img {
+
+            max-width: 100%;
+
+            height: auto;
+
+            border-bottom: 1px solid #ddd;
+
+        }
+
+        .portfolio-item h3 {
+
+            color: #0056b3;
+
+            margin: 15px 0 5px 0;
+
+        }
+
+        footer {
+
+            text-align: center;
+
+            padding: 20px;
+
+            background: #0056b3;
+
+            color: #fff;
+
+            margin-top: 20px;
+
+        }
+
+    </style>
+
+<meta name="google-site-verification" content="jVZT9W1jCEur3XavON9RrBcD8MXzOC9psI7NY8rc8vc" />
+
 </head>
+
 <body>
 
-    <div class="top-menu">
-        <a href="portfolio.html" class="back-link">← Voltar para Portfolio</a>
-    </div>
 
-    <header>
-        <div class="container">
-            <h1>Fábio Costa Sampaio</h1>
-            <p> Data Governance & BI Specialist, Engenharia de Dados e Gerenciamento de Projetos de TI, com +15 anos transformando dados em decisões estratégicas </p>
-            <div class="contact-info">
-                <a href="mailto:fabiocosta12@gmail.com">fabiocosta12@gmail.com</a>
-                <span>|</span>
-                <a href="tel:+5561983230524">+55 (61) 98323-0524</a>
-                <span>|</span>
-                <a href="https://www.linkedin.com/in/fabio-costa-sampaio/" target="_blank">LinkedIn</a>
-            </div>
-        </div>
-    </header>
 
-    </body>
+    <header>
+
+        <div class="container">
+
+            <h1>Fábio Costa Sampaio</h1>
+
+            <p> Data Governance & BI Specialist, Engenharia de Dados e Gerenciamento de Projetos de TI, com +15 anos transformando dados em decisões estratégicas </p>
+
+            <div class="contact-info">
+
+                <a href="mailto:fabiocosta12@gmail.com">fabiocosta12@gmail.com</a>
+
+                <span>|</span>
+
+                <a href="tel:+5561983230524">+55 (61) 98323-0524</a>
+
+                <span>|</span>
+
+                <a href="https://www.linkedin.com/in/fabio-costa-sampaio/" target="_blank">LinkedIn</a>
+
+            </div>
+
+        </div>
+
+    </header>
 </html>
 
     <div class="container main-content">
@@ -338,6 +524,7 @@
 
 </body>
 </html>
+
 
 
 
